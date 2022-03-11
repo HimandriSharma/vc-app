@@ -1,0 +1,28 @@
+{
+  "name": "vc-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HimandriSharma/vc-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HimandriSharma/vc-app/issues"
+  },
+  "homepage": "https://github.com/HimandriSharma/vc-app#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "exprss": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  }
+}
